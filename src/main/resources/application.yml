@@ -7,7 +7,7 @@ erupt:
   # 是否开启redis方式存储session，默认false，开启后需在配置文件中添加redis配置（同 spring boot）
   redisSession: false
   # 附件上传存储路径, 默认路径为：/opt/erupt-attachment
-  uploadPath: D:/erupt/attachment
+  uploadPath: C:/erupt/attachment
   # 是否保留上传文件原始名称
   keepUploadFileName: false
   # 登录session时长（redisSession为true时有效）
@@ -18,14 +18,14 @@ erupt:
 magic-api:
   web: /magic/web
   # 接口配置文件存放路径
-  resource.location: D:/erupt/magic-script
+  resource.location: C:/erupt/magic-script
   show-url: false
 
 spring:
   datasource:
     url: jdbc:mysql://localhost:3306/erupt-example?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai
     username: root
-    password: 12345678
+    password: 5601564a
   jpa:
     show-sql: true
     generate-ddl: true
@@ -55,3 +55,4 @@ server:
     includeException: true
     includeStacktrace: ALWAYS
     includeMessage: ALWAYS
+  port : 18080
