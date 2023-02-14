@@ -69,12 +69,10 @@ public class ComponentDataProxy implements DataProxy<Component> {
         System.err.println("editBehavior");
     }
 
-    @Override
     public void excelExport(Workbook wb) {
         System.err.println("excelExport");
     }
 
-    @Override
     public void excelImport(Component o) {
         System.err.println("excelImport");
     }
